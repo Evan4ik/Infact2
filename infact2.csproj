@@ -1,0 +1,313 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>InfiniteAct2</AssemblyName>
+    <Description>Wow! We made act 2 infinite. Enjoy.</Description>
+    <Version>1.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\ambidextrousboon.png" />
+    <None Remove="Resources\annoyfm.png" />
+    <None Remove="Resources\arch.png" />
+    <None Remove="Resources\battle transition.png" />
+    <None Remove="Resources\block_books.png" />
+    <None Remove="Resources\block_grave.png" />
+    <None Remove="Resources\block_rocks.png" />
+    <None Remove="Resources\block_tech.png" />
+    <None Remove="Resources\bloodstoneboon.png" />
+    <None Remove="Resources\boneboon.png" />
+    <None Remove="Resources\boneyes_0.png" />
+    <None Remove="Resources\boneyes_1.png" />
+    <None Remove="Resources\boon.png" />
+    <None Remove="Resources\boontab.png" />
+    <None Remove="Resources\bossbattle transition.png" />
+    <None Remove="Resources\boulder.png" />
+    <None Remove="Resources\boulderemerald.png" />
+    <None Remove="Resources\boulderruby.png" />
+    <None Remove="Resources\bouldersapphire.png" />
+    <None Remove="Resources\bountybody_0.png" />
+    <None Remove="Resources\bountybody_1.png" />
+    <None Remove="Resources\bountybody_2.png" />
+    <None Remove="Resources\bountybody_3.png" />
+    <None Remove="Resources\bountyempty.png" />
+    <None Remove="Resources\bountyeyes_0.png" />
+    <None Remove="Resources\bountyeyes_1.png" />
+    <None Remove="Resources\bountyeyes_2.png" />
+    <None Remove="Resources\bountyeyes_3.png" />
+    <None Remove="Resources\bountymouth_0.png" />
+    <None Remove="Resources\bountymouth_1.png" />
+    <None Remove="Resources\bountymouth_2.png" />
+    <None Remove="Resources\bountymouth_3.png" />
+    <None Remove="Resources\bountynature_0.png" />
+    <None Remove="Resources\bountynature_1.png" />
+    <None Remove="Resources\bountynature_2.png" />
+    <None Remove="Resources\bountynature_3.png" />
+    <None Remove="Resources\bountytech_0.png" />
+    <None Remove="Resources\bountytech_1.png" />
+    <None Remove="Resources\bountytech_2.png" />
+    <None Remove="Resources\bountytech_3.png" />
+    <None Remove="Resources\bountyundead_0.png" />
+    <None Remove="Resources\bountyundead_1.png" />
+    <None Remove="Resources\bountyundead_2.png" />
+    <None Remove="Resources\bountyundead_3.png" />
+    <None Remove="Resources\bountywizard_0.png" />
+    <None Remove="Resources\bountywizard_1.png" />
+    <None Remove="Resources\bountywizard_2.png" />
+    <None Remove="Resources\bountywizard_3.png" />
+    <None Remove="Resources\brokenbot.png" />
+    <None Remove="Resources\button_battle.png" />
+    <None Remove="Resources\button_boon.png" />
+    <None Remove="Resources\button_secret.png" />
+    <None Remove="Resources\button_shop.png" />
+    <None Remove="Resources\cardbattle.png" />
+    <None Remove="Resources\cardboss.png" />
+    <None Remove="Resources\cardchoice.png" />
+    <None Remove="Resources\cardchoicecost.png" />
+    <None Remove="Resources\challengebg.png" />
+    <None Remove="Resources\challengecheckmark.png" />
+    <None Remove="Resources\challengeexit.png" />
+    <None Remove="Resources\challenge_boon.png" />
+    <None Remove="Resources\challenge_boonA.png" />
+    <None Remove="Resources\challenge_bounty.png" />
+    <None Remove="Resources\challenge_bountyA.png" />
+    <None Remove="Resources\challenge_bridge.png" />
+    <None Remove="Resources\challenge_bridgeA.png" />
+    <None Remove="Resources\challenge_elite.png" />
+    <None Remove="Resources\challenge_eliteA.png" />
+    <None Remove="Resources\challenge_nohammer.png" />
+    <None Remove="Resources\challenge_nohammerA.png" />
+    <None Remove="Resources\challenge_nuzlocke.png" />
+    <None Remove="Resources\challenge_nuzlockeA.png" />
+    <None Remove="Resources\cloverboon.png" />
+    <None Remove="Resources\conduit tower.png" />
+    <None Remove="Resources\constructboon.png" />
+    <None Remove="Resources\deadtree.png" />
+    <None Remove="Resources\deckroomborder.png" />
+    <None Remove="Resources\deckroomfloor.png" />
+    <None Remove="Resources\disturbedgrave.png" />
+    <None Remove="Resources\doublebattle transition.png" />
+    <None Remove="Resources\doubletemplebattle.png" />
+    <None Remove="Resources\enterdoor.png" />
+    <None Remove="Resources\eyes_0.png" />
+    <None Remove="Resources\eyes_1.png" />
+    <None Remove="Resources\fir.png" />
+    <None Remove="Resources\fleshboon.png" />
+    <None Remove="Resources\forestboon.png" />
+    <None Remove="Resources\fossilboon.png" />
+    <None Remove="Resources\frozenopossum.png" />
+    <None Remove="Resources\goatboon.png" />
+    <None Remove="Resources\kennel.png" />
+    <None Remove="Resources\marrowboon.png" />
+    <None Remove="Resources\mox_emerald.png" />
+    <None Remove="Resources\mox_ruby.png" />
+    <None Remove="Resources\mox_sapphire.png" />
+    <None Remove="Resources\myco.png" />
+    <None Remove="Resources\mycoboon.png" />
+    <None Remove="Resources\naturedungeon.png" />
+    <None Remove="Resources\necromancyboon.png" />
+    <None Remove="Resources\obelisk.png" />
+    <None Remove="Resources\oldclover.png" />
+    <None Remove="Resources\ouroborosboon.png" />
+    <None Remove="Resources\photographerboon.png" />
+    <None Remove="Resources\pillar.png" />
+    <None Remove="Resources\PixelMadeOfStone.png" />
+    <None Remove="Resources\powerboon.png" />
+    <None Remove="Resources\railing.png" />
+    <None Remove="Resources\rarecardchoice.png" />
+    <None Remove="Resources\reincarnationboon.png" />
+    <None Remove="Resources\ruinedarch.png" />
+    <None Remove="Resources\savinggraceboon.png" />
+    <None Remove="Resources\scrapboon.png" />
+    <None Remove="Resources\shop.png" />
+    <None Remove="Resources\snowfir.png" />
+    <None Remove="Resources\star_1.png" />
+    <None Remove="Resources\star_2.png" />
+    <None Remove="Resources\star_3.png" />
+    <None Remove="Resources\stump.png" />
+    <None Remove="Resources\techdrones.png" />
+    <None Remove="Resources\techdungeon.png" />
+    <None Remove="Resources\testportrait.png" />
+    <None Remove="Resources\tombstone.png" />
+    <None Remove="Resources\undeaddungeon.png" />
+    <None Remove="Resources\voltageboon.png" />
+    <None Remove="Resources\wizarddungeon.png" />
+    <None Remove="Resources\wizarddungeon_arch.png" />
+    <None Remove="Resources\wizarddungeon_gems.png" />
+    <None Remove="Resources\wizarddungeon_isles.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ambidextrousboon.png" />
+    <EmbeddedResource Include="Resources\annoyfm.png" />
+    <EmbeddedResource Include="Resources\arch.png" />
+    <EmbeddedResource Include="Resources\battle transition.png" />
+    <EmbeddedResource Include="Resources\block_books.png" />
+    <EmbeddedResource Include="Resources\block_grave.png" />
+    <EmbeddedResource Include="Resources\block_rocks.png" />
+    <EmbeddedResource Include="Resources\block_tech.png" />
+    <EmbeddedResource Include="Resources\bloodstoneboon.png" />
+    <EmbeddedResource Include="Resources\boneboon.png" />
+    <EmbeddedResource Include="Resources\boneyes_0.png" />
+    <EmbeddedResource Include="Resources\boneyes_1.png" />
+    <EmbeddedResource Include="Resources\boon.png" />
+    <EmbeddedResource Include="Resources\boontab.png" />
+    <EmbeddedResource Include="Resources\bossbattle transition.png" />
+    <EmbeddedResource Include="Resources\boulder.png" />
+    <EmbeddedResource Include="Resources\boulderemerald.png" />
+    <EmbeddedResource Include="Resources\boulderruby.png" />
+    <EmbeddedResource Include="Resources\bouldersapphire.png" />
+    <EmbeddedResource Include="Resources\bountybody_0.png" />
+    <EmbeddedResource Include="Resources\bountybody_1.png" />
+    <EmbeddedResource Include="Resources\bountybody_2.png" />
+    <EmbeddedResource Include="Resources\bountybody_3.png" />
+    <EmbeddedResource Include="Resources\bountyempty.png" />
+    <EmbeddedResource Include="Resources\bountyeyes_0.png" />
+    <EmbeddedResource Include="Resources\bountyeyes_1.png" />
+    <EmbeddedResource Include="Resources\bountyeyes_2.png" />
+    <EmbeddedResource Include="Resources\bountyeyes_3.png" />
+    <EmbeddedResource Include="Resources\bountymouth_0.png" />
+    <EmbeddedResource Include="Resources\bountymouth_1.png" />
+    <EmbeddedResource Include="Resources\bountymouth_2.png" />
+    <EmbeddedResource Include="Resources\bountymouth_3.png" />
+    <EmbeddedResource Include="Resources\bountynature_0.png" />
+    <EmbeddedResource Include="Resources\bountynature_1.png" />
+    <EmbeddedResource Include="Resources\bountynature_2.png" />
+    <EmbeddedResource Include="Resources\bountynature_3.png" />
+    <EmbeddedResource Include="Resources\bountytech_0.png" />
+    <EmbeddedResource Include="Resources\bountytech_1.png" />
+    <EmbeddedResource Include="Resources\bountytech_2.png" />
+    <EmbeddedResource Include="Resources\bountytech_3.png" />
+    <EmbeddedResource Include="Resources\bountyundead_0.png" />
+    <EmbeddedResource Include="Resources\bountyundead_1.png" />
+    <EmbeddedResource Include="Resources\bountyundead_2.png" />
+    <EmbeddedResource Include="Resources\bountyundead_3.png" />
+    <EmbeddedResource Include="Resources\bountywizard_0.png" />
+    <EmbeddedResource Include="Resources\bountywizard_1.png" />
+    <EmbeddedResource Include="Resources\bountywizard_2.png" />
+    <EmbeddedResource Include="Resources\bountywizard_3.png" />
+    <EmbeddedResource Include="Resources\brokenbot.png" />
+    <EmbeddedResource Include="Resources\button_battle.png" />
+    <EmbeddedResource Include="Resources\button_boon.png" />
+    <EmbeddedResource Include="Resources\button_secret.png" />
+    <EmbeddedResource Include="Resources\button_shop.png" />
+    <EmbeddedResource Include="Resources\cardbattle.png" />
+    <EmbeddedResource Include="Resources\cardboss.png" />
+    <EmbeddedResource Include="Resources\cardchoice.png" />
+    <EmbeddedResource Include="Resources\cardchoicecost.png" />
+    <EmbeddedResource Include="Resources\challengebg.png" />
+    <EmbeddedResource Include="Resources\challengecheckmark.png" />
+    <EmbeddedResource Include="Resources\challengeexit.png" />
+    <EmbeddedResource Include="Resources\challenge_boon.png" />
+    <EmbeddedResource Include="Resources\challenge_boonA.png" />
+    <EmbeddedResource Include="Resources\challenge_bounty.png" />
+    <EmbeddedResource Include="Resources\challenge_bountyA.png" />
+    <EmbeddedResource Include="Resources\challenge_bridge.png" />
+    <EmbeddedResource Include="Resources\challenge_bridgeA.png" />
+    <EmbeddedResource Include="Resources\challenge_elite.png" />
+    <EmbeddedResource Include="Resources\challenge_eliteA.png" />
+    <EmbeddedResource Include="Resources\challenge_nohammer.png" />
+    <EmbeddedResource Include="Resources\challenge_nohammerA.png" />
+    <EmbeddedResource Include="Resources\challenge_nuzlocke.png" />
+    <EmbeddedResource Include="Resources\challenge_nuzlockeA.png" />
+    <EmbeddedResource Include="Resources\cloverboon.png" />
+    <EmbeddedResource Include="Resources\conduit tower.png" />
+    <EmbeddedResource Include="Resources\constructboon.png" />
+    <EmbeddedResource Include="Resources\deadtree.png" />
+    <EmbeddedResource Include="Resources\deckroomborder.png" />
+    <EmbeddedResource Include="Resources\deckroomfloor.png" />
+    <EmbeddedResource Include="Resources\disturbedgrave.png" />
+    <EmbeddedResource Include="Resources\doublebattle transition.png" />
+    <EmbeddedResource Include="Resources\doubletemplebattle.png" />
+    <EmbeddedResource Include="Resources\enterdoor.png" />
+    <EmbeddedResource Include="Resources\eyes_0.png" />
+    <EmbeddedResource Include="Resources\eyes_1.png" />
+    <EmbeddedResource Include="Resources\fir.png" />
+    <EmbeddedResource Include="Resources\fleshboon.png" />
+    <EmbeddedResource Include="Resources\forestboon.png" />
+    <EmbeddedResource Include="Resources\fossilboon.png" />
+    <EmbeddedResource Include="Resources\frozenopossum.png" />
+    <EmbeddedResource Include="Resources\goatboon.png" />
+    <EmbeddedResource Include="Resources\kennel.png" />
+    <EmbeddedResource Include="Resources\marrowboon.png" />
+    <EmbeddedResource Include="Resources\mox_emerald.png" />
+    <EmbeddedResource Include="Resources\mox_ruby.png" />
+    <EmbeddedResource Include="Resources\mox_sapphire.png" />
+    <EmbeddedResource Include="Resources\myco.png" />
+    <EmbeddedResource Include="Resources\mycoboon.png" />
+    <EmbeddedResource Include="Resources\naturedungeon.png" />
+    <EmbeddedResource Include="Resources\necromancyboon.png" />
+    <EmbeddedResource Include="Resources\obelisk.png" />
+    <EmbeddedResource Include="Resources\oldclover.png" />
+    <EmbeddedResource Include="Resources\ouroborosboon.png" />
+    <EmbeddedResource Include="Resources\photographerboon.png" />
+    <EmbeddedResource Include="Resources\pillar.png" />
+    <EmbeddedResource Include="Resources\PixelMadeOfStone.png" />
+    <EmbeddedResource Include="Resources\powerboon.png" />
+    <EmbeddedResource Include="Resources\railing.png" />
+    <EmbeddedResource Include="Resources\rarecardchoice.png" />
+    <EmbeddedResource Include="Resources\reincarnationboon.png" />
+    <EmbeddedResource Include="Resources\ruinedarch.png" />
+    <EmbeddedResource Include="Resources\savinggraceboon.png" />
+    <EmbeddedResource Include="Resources\scrapboon.png" />
+    <EmbeddedResource Include="Resources\shop.png" />
+    <EmbeddedResource Include="Resources\snowfir.png" />
+    <EmbeddedResource Include="Resources\star_1.png" />
+    <EmbeddedResource Include="Resources\star_2.png" />
+    <EmbeddedResource Include="Resources\star_3.png" />
+    <EmbeddedResource Include="Resources\stump.png" />
+    <EmbeddedResource Include="Resources\techdrones.png" />
+    <EmbeddedResource Include="Resources\techdungeon.png" />
+    <EmbeddedResource Include="Resources\testportrait.png" />
+    <EmbeddedResource Include="Resources\tombstone.png" />
+    <EmbeddedResource Include="Resources\undeaddungeon.png" />
+    <EmbeddedResource Include="Resources\voltageboon.png" />
+    <EmbeddedResource Include="Resources\wizarddungeon.png" />
+    <EmbeddedResource Include="Resources\wizarddungeon_arch.png" />
+    <EmbeddedResource Include="Resources\wizarddungeon_gems.png" />
+    <EmbeddedResource Include="Resources\wizarddungeon_isles.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.*" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
+    <PackageReference Include="Inscryption.GameLibs" Version="1.9.0-r.0" />
+    <PackageReference Include="UnityEngine.Modules" Version="2019.4.24" IncludeAssets="compile" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CardLoader">
+      <HintPath>lib\API.dll</HintPath>
+    </Reference>
+	<Reference Include="API">
+      <HintPath>lib\InscryptionAPI.dll</HintPath>
+    </Reference>
+	<Reference Include="CommunityPatch">
+      <HintPath>lib\API.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>lib\InscryptionCommunityPatch.dll</HintPath>
+    </Reference>
+    <Reference Include="InscryptionAPI">
+      <HintPath>lib\InscryptionAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="InscryptionCommunityPatch">
+      <HintPath>lib\InscryptionCommunityPatch.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>lib\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>lib\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

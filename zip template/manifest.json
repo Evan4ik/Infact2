@@ -1,0 +1,10 @@
+{
+    "name": "Endless_Act2",
+    "version_number": "1.3.0",
+    "website_url": "https://github.com/Evan4ik/Infact2",
+    "description": "[CHALLENGES!] Adds a new endless dungeon to the starting island of Act 2!",
+    "dependencies": [
+        "BepInEx-BepInExPack_Inscryption-5.4.1701",
+        "API_dev-API-2.13.3"
+    ]
+}
