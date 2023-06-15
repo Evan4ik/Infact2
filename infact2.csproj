@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <None Remove="Resources\ambidextrousboon.png" />
+    <None Remove="Resources\ambidextrousboonold.png" />
     <None Remove="Resources\annoyfm.png" />
     <None Remove="Resources\arch.png" />
     <None Remove="Resources\battle transition.png" />
@@ -24,6 +25,7 @@
     <None Remove="Resources\boneyes_1.png" />
     <None Remove="Resources\boon.png" />
     <None Remove="Resources\boontab.png" />
+    <None Remove="Resources\boontabold.png" />
     <None Remove="Resources\bossbattle transition.png" />
     <None Remove="Resources\boulder.png" />
     <None Remove="Resources\boulderemerald.png" />
@@ -101,6 +103,7 @@
     <None Remove="Resources\frozenopossum.png" />
     <None Remove="Resources\goatboon.png" />
     <None Remove="Resources\kennel.png" />
+    <None Remove="Resources\leapingtrap.png" />
     <None Remove="Resources\marrowboon.png" />
     <None Remove="Resources\mox_emerald.png" />
     <None Remove="Resources\mox_ruby.png" />
@@ -110,6 +113,7 @@
     <None Remove="Resources\naturedungeon.png" />
     <None Remove="Resources\necromancyboon.png" />
     <None Remove="Resources\obelisk.png" />
+    <None Remove="Resources\oldboon.png" />
     <None Remove="Resources\oldclover.png" />
     <None Remove="Resources\ouroborosboon.png" />
     <None Remove="Resources\photographerboon.png" />
@@ -121,12 +125,15 @@
     <None Remove="Resources\reincarnationboon.png" />
     <None Remove="Resources\ruinedarch.png" />
     <None Remove="Resources\savinggraceboon.png" />
+    <None Remove="Resources\scarecrowact2_pixel.png" />
     <None Remove="Resources\scrapboon.png" />
     <None Remove="Resources\shop.png" />
     <None Remove="Resources\snowfir.png" />
+    <None Remove="Resources\spear_pixel.png" />
     <None Remove="Resources\star_1.png" />
     <None Remove="Resources\star_2.png" />
     <None Remove="Resources\star_3.png" />
+    <None Remove="Resources\strangefrog.png" />
     <None Remove="Resources\stump.png" />
     <None Remove="Resources\techdrones.png" />
     <None Remove="Resources\techdungeon.png" />
@@ -142,6 +149,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Resources\ambidextrousboon.png" />
+    <EmbeddedResource Include="Resources\ambidextrousboonold.png" />
     <EmbeddedResource Include="Resources\annoyfm.png" />
     <EmbeddedResource Include="Resources\arch.png" />
     <EmbeddedResource Include="Resources\battle transition.png" />
@@ -155,6 +163,7 @@
     <EmbeddedResource Include="Resources\boneyes_1.png" />
     <EmbeddedResource Include="Resources\boon.png" />
     <EmbeddedResource Include="Resources\boontab.png" />
+    <EmbeddedResource Include="Resources\boontabold.png" />
     <EmbeddedResource Include="Resources\bossbattle transition.png" />
     <EmbeddedResource Include="Resources\boulder.png" />
     <EmbeddedResource Include="Resources\boulderemerald.png" />
@@ -232,6 +241,7 @@
     <EmbeddedResource Include="Resources\frozenopossum.png" />
     <EmbeddedResource Include="Resources\goatboon.png" />
     <EmbeddedResource Include="Resources\kennel.png" />
+    <EmbeddedResource Include="Resources\leapingtrap.png" />
     <EmbeddedResource Include="Resources\marrowboon.png" />
     <EmbeddedResource Include="Resources\mox_emerald.png" />
     <EmbeddedResource Include="Resources\mox_ruby.png" />
@@ -241,23 +251,26 @@
     <EmbeddedResource Include="Resources\naturedungeon.png" />
     <EmbeddedResource Include="Resources\necromancyboon.png" />
     <EmbeddedResource Include="Resources\obelisk.png" />
+    <EmbeddedResource Include="Resources\oldboon.png" />
     <EmbeddedResource Include="Resources\oldclover.png" />
     <EmbeddedResource Include="Resources\ouroborosboon.png" />
     <EmbeddedResource Include="Resources\photographerboon.png" />
     <EmbeddedResource Include="Resources\pillar.png" />
-    <EmbeddedResource Include="Resources\PixelMadeOfStone.png" />
     <EmbeddedResource Include="Resources\powerboon.png" />
     <EmbeddedResource Include="Resources\railing.png" />
     <EmbeddedResource Include="Resources\rarecardchoice.png" />
     <EmbeddedResource Include="Resources\reincarnationboon.png" />
     <EmbeddedResource Include="Resources\ruinedarch.png" />
     <EmbeddedResource Include="Resources\savinggraceboon.png" />
+    <EmbeddedResource Include="Resources\scarecrowact2_pixel.png" />
     <EmbeddedResource Include="Resources\scrapboon.png" />
     <EmbeddedResource Include="Resources\shop.png" />
     <EmbeddedResource Include="Resources\snowfir.png" />
+    <EmbeddedResource Include="Resources\spear_pixel.png" />
     <EmbeddedResource Include="Resources\star_1.png" />
     <EmbeddedResource Include="Resources\star_2.png" />
     <EmbeddedResource Include="Resources\star_3.png" />
+    <EmbeddedResource Include="Resources\strangefrog.png" />
     <EmbeddedResource Include="Resources\stump.png" />
     <EmbeddedResource Include="Resources\techdrones.png" />
     <EmbeddedResource Include="Resources\techdungeon.png" />
